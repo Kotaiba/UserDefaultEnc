@@ -23,8 +23,8 @@ public:
 private:
     static UserDefaultEnc *_instance;
     bool to_bool(std::string s);
-    std::string encryptedData(std::string data);
-    std::string decryptedData(std::string data);
+    std::string encrypteData(std::string data);
+    std::string decrypteData(std::string data);
     std::string base64_encode(const std::string &in) ;
     std::string base64_decode(const std::string &in) ;
 };

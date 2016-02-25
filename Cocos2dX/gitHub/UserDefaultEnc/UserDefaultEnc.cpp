@@ -64,12 +64,12 @@ std::string UserDefaultEnc::getStringForKey(std::string key){
     return value;
 }
 //encrypte you can add your encrypte decrypte code and every thing will work fine
-std::string UserDefaultEnc::encryptedData(std::string data){
+std::string UserDefaultEnc::encrypteData(std::string data){
 
     std::string encoded = base64_encode(data);
     return encoded;
 }
-std::string UserDefaultEnc::decryptedData(std::string data){
+std::string UserDefaultEnc::decrypteData(std::string data){
  
     return base64_decode(data);
 }
