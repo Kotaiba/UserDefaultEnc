@@ -3,7 +3,7 @@
 //by Kotaiba Jabkji
 #include <iostream>
 #include "cocos2d.h"
-#include "LevelHelper2API.h"
+
 
 class UserDefaultEnc : public Node{
 public:
